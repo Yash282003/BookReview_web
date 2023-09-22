@@ -1,0 +1,61 @@
+.container {
+  margin-top: 40px;
+  display: flex;
+}
+
+.book_card img {
+  width: 10rem;
+  height: 15rem;
+  object-fit: cover;
+  border-top-right-radius: 0.25rem;
+  border-top-left-radius: 0.25rem;
+  
+}
+.book_image {
+  box-shadow: 18px 18px 18px rgba(15, 14, 14, 0.1); 
+}
+.book_card_details {
+  flex: 1; 
+}
+.container_first {
+  padding-left: 50px;
+  display: flex;
+  flex-wrap: wrap; 
+}
+.main_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+}
+.container_items {
+  width: 100%;
+  flex: 1;
+  
+  box-shadow: 14px 14px 80px rgba(0, 0, 0, 0.1);
+}
+.sidemenu {
+  width: 250px;
+
+  height: 100%;
+}
+
+.sidemenu header {
+  font-size: 22px;
+  text-align: center;
+  line-height: 50px;
+  user-select: none;
+}
+
+.items li {
+  list-style: none;
+  line-height: 45px;
+
+  font-size: 17px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+ul li:hover {
+  background-color: rgb(212, 209, 205);
+  color: rgb(252, 252, 9);
+  cursor: pointer;
+}
