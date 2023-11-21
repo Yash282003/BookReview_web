@@ -8,10 +8,10 @@ body {
   background-color: #1d4ed8;
 }
 .background-container {
-  position: relative;
+
   max-width: 100%;
-  min-height: 80vh;
-  background-image: url("../assets/imagef.avif");
+  min-height: 85vh;
+  background-image: url("../assets/Header.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -22,23 +22,24 @@ body {
 }
 
 .content {
-  position: absolute;
-  top: 20%; /* Adjust the distance from the bottom */
-  left: 30%;
-  transform: translateX(-50%);
+  width: 45vw;
+  padding: 4rem;
+ 
+
 
  
 }
-.content .headline {
+
+.content  .headline {
   font-size: 60px;
   color: rgb(24, 11, 11);
   letter-spacing: 5px;
+  margin: 10px 0;
 }
 .sub_headline {
   color: rgb(27, 15, 15);
   font-size: 20px;
 }
-
 
 nav {
   display: flex;
@@ -105,7 +106,7 @@ nav .menu span {
   width: 80%;
   height: 40px;
   border: none;
-  background-color: rgb(212, 209, 205);
+  background-color: #F5F6F8;
   display: flex;
   padding: 10px;
   align-items: center;
@@ -119,7 +120,7 @@ nav .menu span {
 .search_button input{
   border: none;
   align-items: center;
-  background-color: rgb(212, 209, 205);
+  background-color: #F5F6F8;
   outline: none;
 }
 @media (max-width: 480px) {
